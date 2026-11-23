@@ -8,6 +8,7 @@
 import matplotlib.pyplot as plt
 
 def first_5():
+    """Plotting 1-5 cubes"""
     input_values = [1, 2, 3, 4, 5]
     cubes = [1, 8, 27, 64, 125]
 
@@ -22,6 +23,7 @@ def first_5():
     plt.savefig("5cubes.png")
 
 def first_5000():
+    """Plotting 1-5000 cubes"""
     input_values = list(range(1, 5001))
     cubes = []
 
